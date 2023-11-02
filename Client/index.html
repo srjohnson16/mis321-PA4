@@ -8,17 +8,50 @@
     <title>TideFit - Exercise Tracker </title>
 
     <!-- Link to .css -->
-   <!-- // <link rel="stylesheet" href="./"> -->
+
+   <link rel="stylesheet" href="./resources/styles/index.css">
  
 </head>
 <body onload="getWorkouts()">
        <script type = "text/javascript" src = "./Resource/index.js"></script>
+
+       
+  <!-- NavBAR -->
+<header data-bs-theme="dark">
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+      <img src ="./resources/img/TideFit (small).png" ALT = "Home screen" style = "width: 90px; height: 50px">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
 
 
         <div id = "workouts">
 
         </div>
      
+
+        
+<div class="banner">
+  <h1>TideFit - Exercise Tracker</h1>
+  <img src = "./resources/img/TideFit.png">
+  <p>Because in order to GROW you gotta KNOW</p>
+</div>
+
         <div>
           <table>
             <tr>
@@ -82,80 +115,10 @@
 
 
 
+  <script src="./resources/scripts/index.js "></script>
+  <script src="./Resource/index.js"></script>
 
-  <!-- NavBAR -->
-<header data-bs-theme="dark">
-
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-        <img src ="./resources/img/TideFit (small).png" ALT = "Home screen" style = "width: 90px; height: 50px">
-        </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" >Contact US</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-</header>
-
-
-
-<div class="banner">
-  <h1>TideFit - Exercise Tracker</h1>
-  <img src = "./resources/img/TideFit.png">
-  <p>Because in order to GROW you gotta KNOW</p>
-</div>
-
-
-
-<!-- Old Tables -->
-<div>
-  <table class="table">
-    <h1>Recent Activities</h1>
-    <thead>
-      <tr>
-        <!-- Column names -->
-        <!-- <th scope = "row">ID </th>
-        <th scope="col">Activity Type</th>
-        <th scope="col">Distance (in Miles)</th>
-        <th scope="col">Date Completed</th>
-        <th scope="col">Action</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr> -->
-        <!-- Record values in order of colum names -->
-        <!-- <th scope="row">1</th>
-        <td>Run</td>
-        <td>.25</td>
-        <td>July 8, 2023</td>
-      </tr>
-   
-    </tbody>
-  </table>
-  <a href="#" class="btn btn-crimson">Add Workount</a>
-  <a href="#" class="btn btn-crimson">Pin Workout</a>
-  <a href="#" class="btn btn-crimson">Delete Workout</a>
-</div> -->
-
-<!-- New Form -->
-
-
-  <script src="index.js"></script>
+ <!-- <script src="index.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
